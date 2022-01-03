@@ -9,7 +9,7 @@ let roll = 44;
 const calss = 'first name"Nasir Uddin" last name';
 document.write(name + "<br>");
 document.write(roll + "<br>");
-document.write(calss);
+document.write(calss );
 
 //variable type
 var num = 55;
@@ -18,3 +18,6 @@ var num2=2.5635;
 console.log(typeof (num));
 console.log(typeof (num1));
 console.log(num2.toFixed(2));
+console.log(num.toPrecision(1));
+console.log(Number(true)); 
+
